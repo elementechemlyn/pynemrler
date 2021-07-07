@@ -1,0 +1,10 @@
+{
+  "resourceType": "Subscription",
+  "status": "requested",
+  "criteria": "Bundle?type=message",
+  "channel": {
+    "type": "rest-hook",
+    "endpoint": "http://192.168.0.10:5000/subscriber",
+    "payload": "application/json"
+  }
+}
